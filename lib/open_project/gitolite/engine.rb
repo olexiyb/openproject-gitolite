@@ -32,7 +32,7 @@ module OpenProject::Gitolite
           gitolite_redmine_storage_dir:          '',
           gitolite_recycle_bin_dir:              'recycle_bin/',
           gitolite_local_code_dir:               '.gitolite/',
-          gitolite_lib_dir:                      'bin/lib/',
+          gitolite_lib_dir:                      '/usr/share/gitolite3/lib/',
 
           # Gitolite Config File
           gitolite_admin_dir:                    File.join(Dir.home, 'gitolite-admin'),
